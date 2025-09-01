@@ -524,6 +524,7 @@ body {
     font-size: 24px;
     color: #101828;
     position: relative;
+    padding-right: 30px;
 }
 
 .blog_item-title::after {
@@ -603,6 +604,12 @@ body {
     }
     .about__progress-box {
         gap: 0 20px;
+    }
+    .partners__inner {
+        gap: 20px;
+    }
+    .blog__items {
+        gap: 20px;
     }
 }
 
@@ -705,11 +712,6 @@ body {
     .slogan-text {
         font-size: 18px;
     }
-
-
-
-
-
 }
 
 
