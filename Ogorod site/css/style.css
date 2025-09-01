@@ -627,6 +627,9 @@ body {
     .about__stats {
         flex-wrap: wrap;
     }
+    .products__list {
+        grid-template-columns: repeat(2, 1fr)
+    }
 }   
 
 @media (max-width: 678px) {
@@ -670,7 +673,22 @@ body {
     .about__progress-item dd {
         margin-left: 0;
         margin-top: 10px;
-    }    
+    }
+    .products__list {
+        grid-template-columns: repeat(1, 1fr)
+    } 
+    .products__item-title {
+        font-size: 24px;
+    }
+    .products__title {
+        font-size: 24px;
+    }
+    
+
+
+
+
+
 }
 
 
