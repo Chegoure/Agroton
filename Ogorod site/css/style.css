@@ -342,7 +342,7 @@ body {
     margin: 0 auto;
 }
 
-.solgan {
+.slogan {
     text-align: center;
     text-transform: uppercase;
     padding-top: 115px;
@@ -583,6 +583,15 @@ body {
     .container-big {
         padding: 0;
     }
+    .slogan__title {
+        font-size: 140px;
+    }
+    .slogan__text {
+        font-size: 26px;
+    }
+    .slogan__img {
+        margin-top: -75px;
+    }
 }
 
 @media (max-width: 1280px){
@@ -630,6 +639,13 @@ body {
     .products__list {
         grid-template-columns: repeat(2, 1fr)
     }
+    .slogan__title {
+        font-size: 64px;
+    } 
+    .slogan__img {
+        margin-top: -35px;
+    }    
+
 }   
 
 @media (max-width: 678px) {
@@ -683,7 +699,12 @@ body {
     .products__title {
         font-size: 24px;
     }
-    
+    .slogan {
+        margin-top: 30px;
+    }
+    .slogan-text {
+        font-size: 18px;
+    }
 
 
 
