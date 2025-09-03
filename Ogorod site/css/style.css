@@ -47,6 +47,10 @@ body {
     background-color: #FDFDF0;
 }
 
+.menu__btn {
+    display: none;
+}
+
 .container {
     max-width: 1440px;
     padding: 0 10px;
@@ -655,6 +659,41 @@ body {
     .partners__box {
         width: 100%;
     }
+    .menu__btn {
+        display: flex;
+        width: 40px;
+        flex-direction: column;
+        gap: 8px;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        z-index: 5;
+    }
+    .menu__btn span {
+        width: 100%;
+        height: 3px;
+        background-color: #000; 
+    }
+    .menu__list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        padding: 95px 0;
+        gap: 20px 0;
+        top: 0;
+        transform: translateY(-100%);
+        transition: transform .5s ease;
+    }
+    .menu__list.menu--active {
+        transform: translateY(0);
+    }
+    .menu {
+        order: 1;
+    }
 
 }
 
@@ -804,6 +843,16 @@ body {
     }
     .partners__info-title {
         font-size: 26px;
+    }
+    .header__inner {
+        flex-wrap: wrap;
+        gap: 20px 65px;
+    }
+    .menu {
+        order: 0;
+    }
+    .header__contacts {
+        margin-left: auto;
     }
 }   
 
