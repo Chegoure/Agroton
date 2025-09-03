@@ -554,6 +554,7 @@ body {
     justify-content: space-between;
     margin-bottom: 30px;
     padding-right: 100px;
+    gap: 20px;
 }
 
 .footer__element-title {
@@ -682,8 +683,20 @@ body {
     .slogan__img {
         margin-top: -35px;
     }    
-
+    .footer__top {
+        padding-right: 0;
+    }
 }   
+
+@media (max-width: 790px) {
+    .footer__top {
+        flex-wrap: wrap;
+    }  
+    .footer__logo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 
 @media (max-width: 678px) {
     .about__stats-item {
@@ -710,6 +723,19 @@ body {
     }
     .blog__wrapper {
         padding: 50px 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer__element {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer__bottom {
+        display: block;
+    }
+    .footer__bottom-item {
+        margin-bottom: 10px;
     }
 }
 
@@ -769,6 +795,15 @@ body {
     }
     .partners__box-list {
         padding-left: 0;
+    }
+    .blog__title {
+        font-size: 28px;
+    }
+    .footer {
+        padding: 50px 0;
+    }
+    .partners__info-title {
+        font-size: 26px;
     }
 }   
 
